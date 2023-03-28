@@ -147,13 +147,17 @@ body {
     min-width: 100%;
 }
 
-#register-form input [type="submit"]{
-    background-color: transparent;
-    color: #fff;
-    border: 2px solid #fff;
-    font-size: 1.1rem;
+.btncadastrar {
+    height: 40px;
     font-weight: bold;
-    cursor: point;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+
+.btncadastrar:hover {
+    background-color: white;
+    
 }
 
 #register-form input [type="submit"]:hover {
